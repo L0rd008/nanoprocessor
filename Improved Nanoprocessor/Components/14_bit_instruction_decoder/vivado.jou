@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sun May  5 20:57:21 2024
+# Process ID: 8616
+# Current directory: C:/Users/USER/Documents/vivado/14_bit_instruction_decoder
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1984 C:\Users\USER\Documents\vivado\14_bit_instruction_decoder\14_bit_instruction_decoder.xpr
+# Log file: C:/Users/USER/Documents/vivado/14_bit_instruction_decoder/vivado.log
+# Journal file: C:/Users/USER/Documents/vivado/14_bit_instruction_decoder\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/USER/Documents/vivado/14_bit_instruction_decoder/14_bit_instruction_decoder.xpr
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/USER/Documents/vivado/14_bit_instruction_decoder/Instruction Decoder/MUX_2_way_3_bit.vhd}}
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files C:/Users/USER/Documents/vivado/14_bit_instruction_decoder/MUX_2_way_3_bit.vhd] -no_script -reset -force -quiet
+remove_files  C:/Users/USER/Documents/vivado/14_bit_instruction_decoder/MUX_2_way_3_bit.vhd
+launch_simulation
+source TB_Ins_Dec.tcl
+close_sim

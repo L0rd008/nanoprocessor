@@ -1,0 +1,30 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Fri Apr 26 01:29:13 2024
+# Process ID: 29960
+# Current directory: L:/Documents/Xilinx/Processor2/Comparator
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent36304 L:\Documents\Xilinx\Processor2\Comparator\Comparator.xpr
+# Log file: L:/Documents/Xilinx/Processor2/Comparator/vivado.log
+# Journal file: L:/Documents/Xilinx/Processor2/Comparator\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project L:/Documents/Xilinx/Processor2/Comparator/Comparator.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Comparator_TB.tcl
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim

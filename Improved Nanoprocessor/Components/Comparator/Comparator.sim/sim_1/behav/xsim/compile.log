@@ -1,0 +1,6 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Documents/Xilinx/Processor2/Comparator/Comparator.srcs/sources_1/new/Comparator.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comparator
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Documents/Xilinx/Processor2/Comparator/Comparator.srcs/sources_1/new/Comparator_Latch.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comparator_Latch
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Documents/Xilinx/Processor2/Comparator/Comparator.srcs/sim_1/new/Comparator_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Comparator_TB

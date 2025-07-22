@@ -1,0 +1,334 @@
+/*
+
+Xilinx Vivado v2018.2.1 (64-bit) [Major: 2018, Minor: 2]
+SW Build: 2288692 on Thu Jul 26 18:24:02 MDT 2018
+IP Build: 2289599 on Thu Jul 26 21:09:20 MDT 2018
+
+Process ID: 22284
+License: Customer
+
+Current time: 	Fri May 03 05:02:44 IST 2024
+Time zone: 	India Standard Time (Asia/Colombo)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 16
+
+Screen size: 1920x1080
+Screen resolution (DPI): 120
+Available screens: 1
+Available disk space: 14 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	L:/Applications/Xilinx/Vivado/2018.2/tps/win64/jre
+Java executable location: 	L:/Applications/Xilinx/Vivado/2018.2/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	Asus
+User home directory: C:/Users/Asus
+User working directory: L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: L:/Applications/Xilinx/Vivado
+HDI_APPROOT: L:/Applications/Xilinx/Vivado/2018.2
+RDI_DATADIR: L:/Applications/Xilinx/Vivado/2018.2/data
+RDI_BINDIR: L:/Applications/Xilinx/Vivado/2018.2/bin
+
+Vivado preferences file location: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado/2018.2/vivado.xml
+Vivado preferences directory: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado/2018.2/
+Vivado layouts directory: C:/Users/Asus/AppData/Roaming/Xilinx/Vivado/2018.2/layouts
+PlanAhead jar file location: 	L:/Applications/Xilinx/Vivado/2018.2/lib/classes/planAhead.jar
+Vivado log file location: 	L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/vivado.log
+Vivado journal file location: 	L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/vivado.jou
+Engine tmp dir: 	L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/.Xil/Vivado-22284-L0rd
+
+Xilinx Environment Variables
+----------------------------
+XILINX: L:/Applications/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_DSP: L:/Applications/Xilinx/Vivado/2018.2/ids_lite/ISE
+XILINX_PLANAHEAD: L:/Applications/Xilinx/Vivado/2018.2
+XILINX_SDK: L:/Applications/Xilinx/SDK/2018.2
+XILINX_VIVADO: L:/Applications/Xilinx/Vivado/2018.2
+XILINX_VIVADO_HLS: L:/Applications/Xilinx/Vivado/2018.2
+
+
+GUI allocated memory:	281 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 703 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: L:\Documents\Xilinx\Processor2\FinalNanoprocessor - Iterative Add\Nanoprocessor2.xpr. Version: Vivado v2018.2.1 
+// bx (ck):  Open Project : addNotify
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.xpr} 
+// [GUI Memory]: 94 MB (+95870kb) [00:00:05]
+// [Engine Memory]: 535 MB (+409586kb) [00:00:05]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'L:/Documents/Xilinx/Processor2/FinalNanoprocessor' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 125 MB (+28300kb) [00:00:07]
+// [Engine Memory]: 650 MB (+92924kb) [00:00:07]
+// [Engine Memory]: 685 MB (+2455kb) [00:00:08]
+// [GUI Memory]: 135 MB (+3333kb) [00:00:08]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'L:/Applications/Xilinx/Vivado/2018.2/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 714 MB. GUI used memory: 44 MB. Current time: 5/3/24 5:02:45 AM IST
+// Project name: Nanoprocessor2; location: L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bx (ck)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor2(Behavioral) (Nanoprocessor2.vhd)]", 1); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor2(Behavioral) (Nanoprocessor2.vhd), Slow_Clock : CLOCK(Behavioral) (CLOCK.vhd)]", 2, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor2(Behavioral) (Nanoprocessor2.vhd)]", 1, true); // B (D, ck) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor2(Behavioral) (Nanoprocessor2.vhd), Sansalas_ROM : PROM(Behavioral) (PROM.vhd)]", 12, false); // B (D, ck)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Nanoprocessor2(Behavioral) (Nanoprocessor2.vhd), Sansalas_ROM : PROM(Behavioral) (PROM.vhd)]", 12, false, false, false, false, false, true); // B (D, ck) - Double Click
+selectCodeEditor("PROM.vhd", 308, 348); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 30, 96, true, false, false, false, false); // ce (w, ck) - Shift Key
+typeControlKey((HResource) null, "PROM.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// [Engine Memory]: 722 MB (+2850kb) [00:00:38]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May  3 05:03:28 2024] Launched synth_1... Run output will be captured here: L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 27 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Fri May  3 05:03:58 2024] Launched impl_1... Run output will be captured here: L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 50 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri May  3 05:04:52 2024] Launched impl_1... Run output will be captured here: L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.runs/impl_1/runme.log 
+// Elapsed time: 21 seconds
+selectButton(PAResourceQtoS.SyntheticaStateMonitor_CANCEL, "Cancel"); // h (Q, ck)
+// bx (ck):  Reset to Previous Step : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run impl_1 -prev_step  
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+dismissDialog("Reset to Previous Step"); // bx (ck)
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 46 MB. Current time: 5/3/24 5:05:15 AM IST
+selectCodeEditor("PROM.vhd", 216, 90); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 80, 95); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 238, 178); // ce (w, ck)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("PROM.vhd", 210, 174); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 77, 180); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 95, 160); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 72, 199); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 20 seconds
+selectCodeEditor("PROM.vhd", 73, 130); // ce (w, ck)
+// Elapsed time: 15 seconds
+selectCodeEditor("PROM.vhd", 216, 132); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 69, 149); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 94, 182); // ce (w, ck)
+// Elapsed time: 11 seconds
+selectCodeEditor("PROM.vhd", 166, 93); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 186, 172); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 204, 176); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 211, 196); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 215, 150); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 242, 162); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 238, 181); // ce (w, ck)
+selectCodeEditor("PROM.vhd", 248, 211); // ce (w, ck)
+// Elapsed time: 113 seconds
+selectCodeEditor("PROM.vhd", 313, 350); // ce (w, ck)
+typeControlKey((HResource) null, "PROM.vhd", 'v'); // ce (w, ck)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("PROM.vhd", 0, 92); // ce (w, ck)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ck)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ck): Run Synthesis: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bx (ck):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Run Synthesis"); // A (ck)
+// TclEventType: RUN_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 8 
+// Tcl Message: [Fri May  3 05:09:24 2024] Launched synth_1... Run output will be captured here: L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_COMPLETED
+// ah (ck): Synthesis Completed: addNotify
+// Elapsed time: 28 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bx (ck):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 8 
+// Tcl Message: [Fri May  3 05:09:54 2024] Launched impl_1... Run output will be captured here: L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bx (ck)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: RUN_COMPLETED
+// ah (ck): Implementation Completed: addNotify
+// Elapsed time: 47 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_RUN_BITGEN, "Generate Bitstream"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f (ck): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+dismissDialog("Launch Runs"); // f (ck)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Fri May  3 05:10:45 2024] Launched impl_1... Run output will be captured here: L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.runs/impl_1/runme.log 
+// TclEventType: RUN_COMPLETED
+// ah (ck): Bitstream Generation Completed: addNotify
+// Elapsed time: 71 seconds
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a (Q, ah)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// bx (ck):  Open Hardware Manager : addNotify
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Open Hardware Manager"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h (cM, ck)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ad (aj, ck)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bx (ck):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2018.2.1   **** Build date : Jul 26 2018-19:38:10     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.   
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// Tcl Message: open_hw_target 
+// Tcl Message: INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A8A8CBA 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,410 MB. GUI used memory: 82 MB. Current time: 5/3/24 5:12:06 AM IST
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.runs/impl_1/Nanoprocessor2.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: current_hw_device [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// [Engine Memory]: 1,410 MB (+683627kb) [00:09:30]
+dismissDialog("Auto Connect"); // bx (ck)
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h (cM, ck)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bB (ck): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a (bB)
+// bx (ck):  Program Device : addNotify
+// TclEventType: HW_DEVICE_CHANGE
+dismissDialog("Program Device"); // bB (ck)
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.runs/impl_1/Nanoprocessor2.bit} [get_hw_devices xc7a35t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a35t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+dismissDialog("Program Device"); // bx (ck)
+// Elapsed time: 19 seconds
+closeMainWindow("Nanoprocessor2 - [L:/Documents/Xilinx/Processor2/FinalNanoprocessor - Iterative Add/Nanoprocessor2.xpr] - Vivado 2018.2.1"); // ck
+// A (ck): Exit Vivado: addNotify
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (A)
+dismissDialog("Exit Vivado"); // A (ck)

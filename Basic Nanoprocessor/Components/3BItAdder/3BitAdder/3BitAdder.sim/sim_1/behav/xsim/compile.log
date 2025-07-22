@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/3BitAdder.srcs/sources_1/new/3BitAdder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_3
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/3BitAdder.srcs/sim_1/new/3BitAdderSim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RCA_3Sim

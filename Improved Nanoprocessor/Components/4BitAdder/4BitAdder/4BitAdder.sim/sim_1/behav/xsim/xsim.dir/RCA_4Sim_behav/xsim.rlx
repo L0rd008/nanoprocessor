@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4043884229398064900  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 205995cbf3474566a156489afec10d2f --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot RCA_4Sim_behav xil_defaultlib.RCA_4Sim" , 
+    buildDate : "Jul 26 2018" , 
+    buildTime : "19:36:16" , 
+    linkCmd : "D:\\Softwares\\xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/RCA_4Sim_behav/xsimk.exe\"   \"xsim.dir/RCA_4Sim_behav/obj/xsim_0.win64.obj\" \"xsim.dir/RCA_4Sim_behav/obj/xsim_1.win64.obj\" \"D:\\Softwares\\xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"D:\\Softwares\\xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

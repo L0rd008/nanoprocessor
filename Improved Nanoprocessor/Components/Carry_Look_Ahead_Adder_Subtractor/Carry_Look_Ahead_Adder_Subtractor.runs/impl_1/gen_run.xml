@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1713285916">
+  <File Type="PA-TCL" Name="Carry_Look_Ahead_Adder_Subtractor.tcl"/>
+  <File Type="BITSTR-BMM" Name="Carry_Look_Ahead_Adder_Subtractor_bd.bmm"/>
+  <File Type="REPORTS-TCL" Name="Carry_Look_Ahead_Adder_Subtractor_reports.tcl"/>
+  <File Type="OPT-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_opt.dcp"/>
+  <File Type="OPT-HWDEF" Name="Carry_Look_Ahead_Adder_Subtractor.hwdef"/>
+  <File Type="PWROPT-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_pwropt.dcp"/>
+  <File Type="PLACE-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_placed.dcp"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="Carry_Look_Ahead_Adder_Subtractor_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BGN" Name="Carry_Look_Ahead_Adder_Subtractor.bgn"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_postplace_pwropt.dcp"/>
+  <File Type="BG-BIN" Name="Carry_Look_Ahead_Adder_Subtractor.bin"/>
+  <File Type="PHYSOPT-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_physopt.dcp"/>
+  <File Type="BITSTR-MSK" Name="Carry_Look_Ahead_Adder_Subtractor.msk"/>
+  <File Type="ROUTE-ERROR-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_routed_bb.dcp"/>
+  <File Type="BITSTR-LTX" Name="Carry_Look_Ahead_Adder_Subtractor.ltx"/>
+  <File Type="BITSTR-MMI" Name="Carry_Look_Ahead_Adder_Subtractor.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="Carry_Look_Ahead_Adder_Subtractor.sysdef"/>
+  <File Type="ROUTE-TIMING-PB" Name="Carry_Look_Ahead_Adder_Subtractor_timing_summary_routed.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="Carry_Look_Ahead_Adder_Subtractor_postroute_physopt_bb.dcp"/>
+  <File Type="BG-BIT" Name="Carry_Look_Ahead_Adder_Subtractor.bit"/>
+  <File Type="BITSTR-RBT" Name="Carry_Look_Ahead_Adder_Subtractor.rbt"/>
+  <File Type="BITSTR-NKY" Name="Carry_Look_Ahead_Adder_Subtractor.nky"/>
+  <File Type="BG-DRC" Name="Carry_Look_Ahead_Adder_Subtractor.drc"/>
+  <File Type="RDI-RDI" Name="Carry_Look_Ahead_Adder_Subtractor.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Carry_Look_Ahead.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Full_Adder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Half_Adder.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/Carry_Look_Ahead_Adder_Subtractor.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="Carry_Look_Ahead_Adder_Subtractor"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

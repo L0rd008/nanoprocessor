@@ -1,0 +1,9 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../4BitAddSubUnit/Add_Sub_4.vhd" \
+"../../../../../4BitAdder/4BitAdder/FA.vhd" \
+"../../../../../4BitAdder/4BitAdder/HA.vhd" \
+"../../../../../4BitAddSubUnit/Add_Sub_4Sim.vhd" \
+
+# Do not sort compile order
+nosort

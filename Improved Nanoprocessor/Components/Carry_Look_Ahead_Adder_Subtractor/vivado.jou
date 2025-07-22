@@ -1,0 +1,32 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Fri Apr 26 01:33:06 2024
+# Process ID: 39180
+# Current directory: L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3804 L:\Documents\Xilinx\Processor2\Carry_Look_Ahead_Adder_Subtractor\Carry_Look_Ahead_Adder_Subtractor.xpr
+# Log file: L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/vivado.log
+# Journal file: L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+source Carry_Look_Ahead_Adder_Subtractor_TB.tcl
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim

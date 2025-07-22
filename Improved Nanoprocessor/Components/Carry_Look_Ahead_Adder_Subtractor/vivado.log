@@ -1,0 +1,109 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Fri Apr 26 01:33:06 2024
+# Process ID: 39180
+# Current directory: L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3804 L:\Documents\Xilinx\Processor2\Carry_Look_Ahead_Adder_Subtractor\Carry_Look_Ahead_Adder_Subtractor.xpr
+# Log file: L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/vivado.log
+# Journal file: L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.xpr
+INFO: [Project 1-313] Project file moved from 'L:/Documents/Xilinx/Vivado/Carry_Look_Ahead_Adder_Subtractor' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'L:/Applications/Xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'Carry_Look_Ahead_Adder_Subtractor_TB' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj Carry_Look_Ahead_Adder_Subtractor_TB_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.srcs/sources_1/new/Carry_Look_Ahead.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Carry_Look_Ahead
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.srcs/sources_1/new/Carry_Look_Ahead_Adder_Subtractor.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Carry_Look_Ahead_Adder_Subtractor
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.srcs/sources_1/new/Full_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Full_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.srcs/sources_1/new/Half_Adder.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Half_Adder
+INFO: [VRFC 10-163] Analyzing VHDL file "L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.srcs/sim_1/new/Carry_Look_Ahead_Adder_Subtractor_TB.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Carry_Look_Ahead_Adder_Subtractor_TB
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.2
+Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved.
+Running: L:/Applications/Xilinx/Vivado/2018.2/bin/unwrapped/win64.o/xelab.exe -wto f206bf353ea9452e9a075a2630e9bc04 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Carry_Look_Ahead_Adder_Subtractor_TB_behav xil_defaultlib.Carry_Look_Ahead_Adder_Subtractor_TB -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling architecture behavioral of entity xil_defaultlib.Half_Adder [half_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Full_Adder [full_adder_default]
+Compiling architecture behavioral of entity xil_defaultlib.Carry_Look_Ahead [carry_look_ahead_default]
+Compiling architecture behavioral of entity xil_defaultlib.Carry_Look_Ahead_Adder_Subtractor [carry_look_ahead_adder_subtracto...]
+Compiling architecture behavioral of entity xil_defaultlib.carry_look_ahead_adder_subtracto...
+Built simulation snapshot Carry_Look_Ahead_Adder_Subtractor_TB_behav
+
+****** Webtalk v2018.2.1 (64-bit)
+  **** SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+  **** IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.sim/sim_1/behav/xsim/xsim.dir/Carry_Look_Ahead_Adder_Subtractor_TB_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Fri Apr 26 01:33:28 2024...
+INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'L:/Documents/Xilinx/Processor2/Carry_Look_Ahead_Adder_Subtractor/Carry_Look_Ahead_Adder_Subtractor.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "Carry_Look_Ahead_Adder_Subtractor_TB_behav -key {Behavioral:sim_1:Functional:Carry_Look_Ahead_Adder_Subtractor_TB} -tclbatch {Carry_Look_Ahead_Adder_Subtractor_TB.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.2
+Time resolution is 1 ps
+source Carry_Look_Ahead_Adder_Subtractor_TB.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'Carry_Look_Ahead_Adder_Subtractor_TB_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 870.062 ; gain = 12.512
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+run 100 ns
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Apr 26 02:00:19 2024...

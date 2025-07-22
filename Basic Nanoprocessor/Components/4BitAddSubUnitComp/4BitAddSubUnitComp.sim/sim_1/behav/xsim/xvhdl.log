@@ -1,0 +1,8 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/4BitAddSubUnit/Add_Sub_4.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Add_Sub_4
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/4BitAdder/4BitAdder/FA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity FA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/4BitAdder/4BitAdder/HA.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity HA
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/4BitAddSubUnit/Add_Sub_4Sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Add_Sub_4Sim

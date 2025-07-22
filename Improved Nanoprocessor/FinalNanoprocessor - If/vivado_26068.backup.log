@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sun May  5 23:00:05 2024
+# Process ID: 26068
+# Current directory: C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - If
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent24460 C:\Users\USER\Documents\vivado\Improved Nanoprocessor\FinalNanoprocessor - If\Nanoprocessor2.xpr
+# Log file: C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - If/vivado.log
+# Journal file: C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - If\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - If/Nanoprocessor2.xpr}
+INFO: [Project 1-313] Project file moved from 'L:/Documents/Xilinx/Processor2/FinalNanoprocessor - If' since last save.
+CRITICAL WARNING: [Project 1-311] Could not find the file 'C:/Users/USER/Documents/vivado/Processor1/Nanoprocessor/needed components/CLOCK.vhd', nor could it be found using path 'L:/Documents/Xilinx/Processor1/Nanoprocessor/needed components/CLOCK.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Softwares/xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+add_files -norecurse {{C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - If/needed components/CLOCK.vhd}}
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  5 23:03:14 2024...

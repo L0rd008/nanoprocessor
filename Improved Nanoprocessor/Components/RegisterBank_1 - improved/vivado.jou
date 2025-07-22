@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sun May  5 20:28:43 2024
+# Process ID: 24228
+# Current directory: C:/Users/USER/Documents/vivado/RegisterBank_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13460 C:\Users\USER\Documents\vivado\RegisterBank_1\RegisterBank_1.xpr
+# Log file: C:/Users/USER/Documents/vivado/RegisterBank_1/vivado.log
+# Journal file: C:/Users/USER/Documents/vivado/RegisterBank_1\vivado.jou
+#-----------------------------------------------------------sstart_guioopen_project C:/Users/USER/Documents/vivado/RegisterBank_1/RegisterBank_1.xpruupdate_compile_order -fileset sources_1launch_simulation
+source RegisterBank_tb.tcl
+close_sim
+launch_simulation
+source RegisterBank_tb.tcl
+close_sim
+launch_simulation
+source RegisterBank_tb.tcl

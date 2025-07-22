@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sun Apr 14 00:10:08 2024
+# Process ID: 14352
+# Current directory: C:/Users/USER/Documents/vivado projects/Nano processor/Multiplexers/Multiplexers.runs/synth_1
+# Command line: vivado.exe -log MUX_2_way_3_bit.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MUX_2_way_3_bit.tcl
+# Log file: C:/Users/USER/Documents/vivado projects/Nano processor/Multiplexers/Multiplexers.runs/synth_1/MUX_2_way_3_bit.vds
+# Journal file: C:/Users/USER/Documents/vivado projects/Nano processor/Multiplexers/Multiplexers.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source MUX_2_way_3_bit.tcl -notrace

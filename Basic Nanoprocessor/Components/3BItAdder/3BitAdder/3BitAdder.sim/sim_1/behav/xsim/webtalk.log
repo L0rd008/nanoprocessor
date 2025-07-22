@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sun May  5 21:12:17 2024
+# Process ID: 18060
+# Current directory: C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/3BitAdder.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/3BitAdder.sim/sim_1/behav/xsim/xsim.dir/RCA_3Sim_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/3BitAdder.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/3BitAdder.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source C:/Users/USER/Documents/vivado/3BItAdder/3BitAdder/3BitAdder.sim/sim_1/behav/xsim/xsim.dir/RCA_3Sim_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Sun May  5 21:12:19 2024...

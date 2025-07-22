@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1713033607">
+  <File Type="PA-TCL" Name="MUX_2_way_3_bit.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="MUX_2_way_3_bit_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="MUX_2_way_3_bit_reports.tcl"/>
+  <File Type="RDS-RDS" Name="MUX_2_way_3_bit.vds"/>
+  <File Type="RDS-UTIL" Name="MUX_2_way_3_bit_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="MUX_2_way_3_bit_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="MUX_2_way_3_bit.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="MUX_2_way_3_bit_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="MUX_2_way_3_bit_timing_summary_synth.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/MUX_2_way_3_bit.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/MUX_2_way_4_bit.vhd">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="MUX_2_way_3_bit"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2018"/>
+    <Step Id="synth_design"/>
+  </Strategy>
+</GenRun>

@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/PROM2/PROM2/PROM2.srcs/sources_1/new/PROM2.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PROM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/USER/Documents/vivado/PROM2/PROM2/PROM2.srcs/sim_1/new/PROM2Sim.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PROMSim

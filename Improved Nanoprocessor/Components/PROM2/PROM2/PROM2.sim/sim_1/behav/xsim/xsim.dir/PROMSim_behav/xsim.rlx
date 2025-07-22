@@ -1,0 +1,12 @@
+
+{ 
+    crc :  2222565016942807616  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 71e0261fd8cc44eda64e9be2c5e7b35d --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot PROMSim_behav xil_defaultlib.PROMSim" , 
+    buildDate : "Jul 26 2018" , 
+    buildTime : "19:36:16" , 
+    linkCmd : "D:\\Softwares\\xilinx\\Vivado\\2018.2\\data\\..\\tps\\mingw\\6.2.0\\win64.o\\nt\\bin\\gcc.exe -Wa,-W  -O -Wl,--stack,104857600 -o \"xsim.dir/PROMSim_behav/xsimk.exe\"   \"xsim.dir/PROMSim_behav/obj/xsim_0.win64.obj\" \"xsim.dir/PROMSim_behav/obj/xsim_1.win64.obj\" \"D:\\Softwares\\xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simulator_kernel.dll\"  \"D:\\Softwares\\xilinx\\Vivado\\2018.2\\lib\\win64.o\\\\librdi_simbridge_kernel.dll\"" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

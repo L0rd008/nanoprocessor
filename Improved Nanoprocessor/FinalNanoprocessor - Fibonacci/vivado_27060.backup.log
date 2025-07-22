@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Sun May  5 22:59:28 2024
+# Process ID: 27060
+# Current directory: C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - Fibonacci
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28936 C:\Users\USER\Documents\vivado\Improved Nanoprocessor\FinalNanoprocessor - Fibonacci\Nanoprocessor2.xpr
+# Log file: C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - Fibonacci/vivado.log
+# Journal file: C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - Fibonacci\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - Fibonacci/Nanoprocessor2.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/USER/Documents/vivado/Improved Nanoprocessor/FinalNanoprocessor - Fibonacci'
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/USER/Documents/vivado/Processor1/Nanoprocessor/needed components/CLOCK.vhd'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Softwares/xilinx/Vivado/2018.2/data/ip'.
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun May  5 23:00:02 2024...

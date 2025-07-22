@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Webtalk v2018.2.1 (64-bit)
+# SW Build 2288692 on Thu Jul 26 18:24:02 MDT 2018
+# IP Build 2289599 on Thu Jul 26 21:09:20 MDT 2018
+# Start of session at: Wed Apr 24 00:13:45 2024
+# Process ID: 33276
+# Current directory: L:/Documents/Xilinx/Processor1/Nanoprocessor/Nanoprocessor1.sim/sim_1/behav/xsim
+# Command line: wbtcv.exe -mode batch -source L:/Documents/Xilinx/Processor1/Nanoprocessor/Nanoprocessor1.sim/sim_1/behav/xsim/xsim.dir/TB_Nanoprocessor1_behav/webtalk/xsim_webtalk.tcl -notrace
+# Log file: L:/Documents/Xilinx/Processor1/Nanoprocessor/Nanoprocessor1.sim/sim_1/behav/xsim/webtalk.log
+# Journal file: L:/Documents/Xilinx/Processor1/Nanoprocessor/Nanoprocessor1.sim/sim_1/behav/xsim\webtalk.jou
+#-----------------------------------------------------------
+source L:/Documents/Xilinx/Processor1/Nanoprocessor/Nanoprocessor1.sim/sim_1/behav/xsim/xsim.dir/TB_Nanoprocessor1_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-206] Exiting Webtalk at Wed Apr 24 00:13:46 2024...

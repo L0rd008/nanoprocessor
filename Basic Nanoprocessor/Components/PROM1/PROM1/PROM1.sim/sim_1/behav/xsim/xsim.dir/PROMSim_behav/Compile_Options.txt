@@ -1,0 +1,1 @@
+-wto "7d7160ccc8bc4788b72150acad32265a" --incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "PROMSim_behav" "xil_defaultlib.PROMSim" -log "elaborate.log" 
