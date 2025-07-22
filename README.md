@@ -135,15 +135,43 @@ JZR R0, 4       ; Jump back to comparison
 ## 📁 Repository Structure
 
 ```
-├── src/
-│   ├── components/          # Individual VHDL component files
-│   ├── nanoprocessor.vhd   # Top-level processor implementation
-│   └── testbenches/        # Simulation test files
-├── compiler/
-│   ├── compiler.py         # Assembly-to-machine-code compiler
-│   └── code.txt           # Sample assembly programs
-├── examples/              # Demo programs and outputs
-└── docs/                 # Additional documentation and schematics
+Project Files/
+├── Basic Nanoprocessor/
+│   ├── Components/                    # Core VHDL components
+│   │   ├── 3BitAdder/
+│   │   ├── 4BitAddSubUnitComp/
+│   │   ├── instruction decoder/
+│   │   ├── Multiplexers/
+│   │   ├── MUX 8 to 1/
+│   │   ├── ProgramCounter/
+│   │   ├── PROM1/
+│   │   └── RegisterBank_1/
+│   ├── Nanoprocessor/
+│   │   ├── Nanoprocessor1.vhd       # Basic processor implementation
+│   │   ├── schematic.pdf            # Circuit schematic
+│   │   └── timing.PNG               # Timing diagrams
+│   └── Basys3Labs.xdc               # FPGA constraints file
+│
+├── Improved Nanoprocessor/
+│   ├── Components/                   # Enhanced VHDL components
+│   │   ├── 14_bit_instruction_decoder/
+│   │   ├── Carry_Look_Ahead_Adder_Subtractor/
+│   │   ├── Comparator/
+│   │   ├── Multiplexers/
+│   │   ├── MUX 8 to 1/
+│   │   ├── ProgramCounter/
+│   │   ├── PROM2/
+│   │   └── RegisterBank_1 - improved/
+│   ├── Compiler/
+│   │   └── Compiler.py              # Assembly compiler tool
+│   ├── FinalNanoprocessor - Fibonacci/
+│   │   ├── Nanoprocessor2.vhd       # Fibonacci demo implementation
+│   │   ├── Compiler and Programs/
+│   │   │   └── Programs/fibonacci.txt
+│   │   └── schematic.pdf
+│   ├── FinalNanoprocessor - If/     # Conditional operations demo
+│   └── FinalNanoprocessor - Iterative Add/  # Arithmetic demo
+└── Basys3Labs.xdc                   # FPGA constraints file
 ```
 
 ## 🎓 Academic Context
