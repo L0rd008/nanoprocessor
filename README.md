@@ -69,13 +69,52 @@ The nanoprocessor is built from custom VHDL components, each optimized for minim
 - **Slow Clock**: Clock divider (10MHz → 1Hz) for demonstration
 - **7-Segment Display LUT**: Maps register values to display output
 
-## 🛠️ Development Tools
+## 🎮 Hardware Interface
 
-### Assembly Compiler
-A Python-based compiler facilitates program development:
-- **Input**: Human-readable assembly code from `code.txt`
-- **Output**: 14-bit machine code for direct VHDL integration
-- **Usage**: Automatically overwrites input file with compiled output
+### Basic Nanoprocessor
+| Interface | Function | Connection |
+|-----------|----------|------------|
+| **RESET** | System Reset | BTNC |
+| **R7 Output** | Register 7 Value | LD3-LD0 (4-bit) |
+| **Overflow** | Arithmetic Overflow Flag | LD15 |
+| **Zero** | Zero Detection Flag | LD14 |
+
+### Improved Nanoprocessor
+| Interface | Function | Connection |
+|-----------|----------|------------|
+| **RESET** | System Reset | BTNC |
+| **R7 Output** | Register 7 Value | LD3-LD0 (4-bit) |
+| **Overflow** | Arithmetic Overflow Flag | LD15 |
+| **Zero** | Zero Detection Flag | LD14 |
+| **Sign** | Sign Bit | LD13 |
+| **A Greater** | Comparison Result (A > B) | LD12 |
+| **A Equals B** | Comparison Result (A = B) | LD11 |
+| **B Greater** | Comparison Result (B > A) | LD10 |
+
+## 💻 Demo Programs
+
+The improved nanoprocessor includes three pre-configured demo programs:
+
+### 🔢 Fibonacci Sequence (`FinalNanoprocessor - Fibonacci`)
+- Calculates Fibonacci sequence up to 13
+- **Note**: Uses unsigned bit representation for extended range
+- Demonstrates iterative calculation and loop control
+
+### ⚖️ Conditional Operations (`FinalNanoprocessor - If`)
+- Showcases comparison instructions (`IFAG`, `IFE`, `IFNE`)
+- Demonstrates conditional branching and control flow
+- Highlights advanced processor capabilities
+
+### ➕ Iterative Addition (`FinalNanoprocessor - Iterative Add`)
+- Computes 1 + 2 + 3 using iterative approach
+- Shows basic arithmetic operations and loop structures
+- Simple demonstration of accumulative operations
+
+### Compiler Usage
+Each demo folder contains:
+- `Compiler.py` - Assembly-to-machine-code converter
+- `Programs/` - Directory with sample assembly files
+- Pre-compiled machine code integrated into VHDL
 
 ## 📚 Code Examples
 
@@ -128,9 +167,27 @@ JZR R0, 4       ; Jump back to comparison
 
 ## 🚀 Getting Started
 
-1. **Hardware Requirements**: Basys 3 FPGA Development Board
-2. **Software Requirements**: Vivado Design Suite for VHDL synthesis
-3. **Assembly Development**: Python 3.x for the compiler tool
+### Hardware Requirements
+- **FPGA Board**: Basys 3 Development Board
+- **Constraints File**: `Basys3Labs.xdc` (included in project folders)
+
+### Software Requirements
+- **Vivado Design Suite** for VHDL synthesis and implementation
+- **Python 3.x** for the assembly compiler tool
+
+### Important Setup Notes
+
+#### Clock Configuration
+The Slow Clock component is configured differently for simulation vs. hardware deployment:
+- **For Simulation**: `if (count = 5) then` (included in source)
+- **For Hardware**: `if (count = 50000000) then` (modify before bitstream generation)
+
+> **Note**: The Slow Clock is omitted from the Components folder as it serves only demonstrative purposes on the Basys3 board. Find `CLOCK.vhd` in the final nanoprocessor project folders.
+
+#### Project Organization
+- All individual Vivado project files are located in the respective `Components/` folders
+- Each component includes its simulation files
+- Required component source files are consolidated in `needed components/` folders within each Nanoprocessor directory
 
 ## 📁 Repository Structure
 
@@ -176,12 +233,16 @@ Project Files/
 
 ## 🎓 Academic Context
 
+**Nanoprocessor Design Competition - Group 17**
+
 This project was developed as part of the Computer Organization and Digital Design course at the University of Moratuwa, demonstrating practical application of:
 - Digital logic design principles
 - VHDL hardware description language
 - FPGA implementation techniques
 - Assembly language programming
 - System-level computer architecture
+
+The project showcases the progression from basic processor concepts to advanced features, emphasizing optimization techniques and practical hardware constraints while maintaining educational clarity.
 
 ---
 
